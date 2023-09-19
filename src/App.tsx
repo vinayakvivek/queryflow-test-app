@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Search } from "vin-vite-lib";
+import { SearchV1, SearchV2 } from "vin-vite-lib";
 
 const DEFAULT_ANON_KEY =
   "c533f0f1b55e6fb677c51099b178167df6de4df6bd19c53130c1aa71bf87a5cb";
@@ -20,7 +20,12 @@ function App() {
           onChange={(e) => setAnonKey(e.target.value)}
         />
       </div>
-      <Search anonKey={anonKey} />
+      <div className="search-field">
+        Search V1: <SearchV1 anonKey={anonKey} />
+      </div>
+      <div className="search-field">
+        Search V2: <SearchV2 anonKey={anonKey} />
+      </div>
     </div>
   );
 }
