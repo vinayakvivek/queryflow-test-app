@@ -12,8 +12,8 @@ dependencies:
     specifier: ^18.2.0
     version: 18.2.0(react@18.2.0)
   vin-vite-lib:
-    specifier: ^0.1.0
-    version: 0.1.0(@types/react-dom@18.2.7)(@types/react@18.2.15)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.3.3)
+    specifier: ^0.2.1
+    version: 0.2.1(@types/react-dom@18.2.7)(@types/react@18.2.15)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.3.3)
 
 devDependencies:
   '@types/react':
@@ -3261,8 +3261,8 @@ packages:
       vfile-message: 3.1.4
     dev: false
 
-  /vin-vite-lib@0.1.0(@types/react-dom@18.2.7)(@types/react@18.2.15)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.3.3):
-    resolution: {integrity: sha512-MrJ+QapEUkJL4G92FQk+j2PF8UGatx8YrhbDI9mYK109yuZuY5NRSqcrBLFL/KdtXm5NZER0l868UoYK/o+yxg==}
+  /vin-vite-lib@0.2.1(@types/react-dom@18.2.7)(@types/react@18.2.15)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.3.3):
+    resolution: {integrity: sha512-gIQdrpkpjaMTkHipf1mGEJv2DhWI7w2O4dhOr0q5YZWdNlEK+mYc+qiEVQS6wbDddK0jSl4eUAnY4EHG8lyyYA==}
     peerDependencies:
       react: ^18.2.0
       react-dom: ^18.2.0
