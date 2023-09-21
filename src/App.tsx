@@ -24,7 +24,11 @@ function App() {
         Search V1: <SearchV1 anonKey={anonKey} />
       </div>
       <div className="search-field">
-        Search V2: <SearchV2 anonKey={anonKey} />
+        Search V2:{" "}
+        <SearchV2
+          anonKey={anonKey}
+          baseUrl={import.meta.env.VITE_QUERYFLOW_BASE}
+        />
       </div>
     </div>
   );
