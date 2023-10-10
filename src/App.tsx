@@ -28,6 +28,9 @@ function App() {
         <SearchV2
           anonKey={anonKey}
           baseUrl={import.meta.env.VITE_QUERYFLOW_BASE}
+          trigger={
+            <button className="search-trigger">My Custom Search button</button>
+          }
         />
       </div>
     </div>
